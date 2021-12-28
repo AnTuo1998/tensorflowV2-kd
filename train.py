@@ -8,8 +8,9 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
-from models import model_dict, Distiller
 from datasets import cifar
+from models import Distiller, model_dict
+
 
 def parse_option():
     parser = argparse.ArgumentParser('argument for training')
